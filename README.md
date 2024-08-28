@@ -1,55 +1,70 @@
-# GitHub Docs <!-- omit in toc -->
-[![Build GitHub Docs On Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=github)
+# Writing to Guide Actions
 
-This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
+This repo is a tiny, tiny snippet of the [Github Desktop](https://docs.github.com/en/desktop) user documentation ecosystem. Check out [their GH repo](https://github.com/github/docs/tree/main/content/desktop), where the GH team uses a docs-as-code methodology and editorial workflow to create and maintain their documentation.
 
-GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+In teams, you are going to practice Lakatos' editorial workflow on Github, as seen in the figure below (p. 81).
 
-Use the table of contents icon <img alt="Table of contents icon" src="./contributing/images/table-of-contents.png" width="25" height="25" /> on the top right corner of this document to navigate to a specific section quickly.
+![Lakatos' diagram of the steps within the editorial workflow](assets/images/517/lakatos-docsascode-editorial-workflow.png)
 
-## Contributing
+1. Write
+2. Submit
+3. Review
+4. Edit
+5. Merge
+6. Deploy
 
-We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see "[About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs)."
+## Learning Objectives
 
-### Ways to contribute
+In this assignment, you will reinforce the following knowledge and skills:
 
-On the GitHub Docs site, you can contribute by clicking the **Make a contribution** button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+- What an editorial workflow is and how it benefits your documentation
+- The steps of an editorial workflow through a real-life example and what happens at each step
+- How you can extend your editorial workflow with issue management
+- How to revise and discuss procedural content with criteria from the WTGA moves and task orientation.
 
-You can also contribute by creating a local environment or opening a Codespace. For more information, see "[Setting up your environment to work on GitHub Docs](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs)."
+## What To Do
 
-<img alt="Contribution call-to-action" src="./contributing/images/contribution_cta.png" width="400">
+### 1. Delegate a particular procedure to each team member
 
-For more complex contributions, please open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
+1. Open the [Getting started with Github Desktop](content/desktop/overview/getting-started-with-github-desktop.md) document and navigate to the following section: "*Part 3: Contributing to projects with Github Desktop*."
 
-If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work.
+2. Delegate one of the procedures referenced and linked in Part 3 to each team member. The team member will be responsible for making any edits to this procedure.
 
-### And that's it!
+   1. **Creating, adding, and cloning repositories**
+      1. Create a new repository
+      2. Add a new repository
+      3. Clone a repository
 
-If you're having trouble with your GitHub account, contact [Support](https://support.github.com).
+   2. **Making changes in a branch**
+      1. Managing branches in Github Desktop
+      2. Committing and reviewing changes to your project in Github Desktop
+      3. Pushing changes to Github from Github Desktop
 
-That's how you can easily become a member of the GitHub Docs community. :sparkles:
+### 2. Practice the DAC editorial workflow
 
-## READMEs
+1. Practice the DAC editorial workflow. Be sure to create a new branch before you begin your editing work.
 
-In addition to the README you're reading right now, this repo includes other READMEs that describe the purpose of each subdirectory in more detail:
+2. When you think your edit is ready to share with your team, create a pull request.
+   * Follow Lakatos' guidelines about what information should be included (pp. 77-78): Issue title, Description, Mentions, Label, and Assignees.
+   * **NOTE**: Some of these techniques are advanced, such as using *References*, *Projects*, and *Milestones*. Please ignore these for now.
 
-- [content/README.md](content/README.md)
-- [content/graphql/README.md](content/graphql/README.md)
-- [content/rest/README.md](content/rest/README.md)
-- [contributing/README.md](contributing/README.md)
-- [data/README.md](data/README.md)
-- [data/reusables/README.md](data/reusables/README.md)
-- [data/variables/README.md](data/variables/README.md)
-- [src/README.md](src/README.md)
+3. Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (WTGA).
+  * As you discuss, use Hart-Davidson's DES method, so you can be a helpful reviewer and ensure that you communicate the reasons behind your judgement of the writing and editing.
+  * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
 
-## License
+4. Once the editing is complete, deploy the changes by merging the branch with the main branch.
 
-The GitHub product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+## Possible Discussion Questions to Consider Before Class
 
-All other code in this repository is licensed under the [MIT license](LICENSE-CODE).
+- What is your overall impression of the docs-as-code editorial workflow with Github and Markdown so far? Please jot down some specific triumphs, pitfalls, and questions to bring to class.
+- (How) Did the shared criteria about task orientation and WTGA help or hinder your editing, writing, and team discussions? Jot down a specific instance for class discussion.
 
-When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+## FYI - You Can Contribute to GH's Docs
 
-## Thanks :purple_heart:
+If you start developing a good sense of the editorial workflow, and take some extra steps to learn about Github's docs-as-code approach, then you can gain some experience and contribute to their docs. Cool, huh?!
 
-Thanks for all your contributions and efforts towards improving the GitHub documentation. We thank you for being part of our :sparkles: community :sparkles:!
+Check out this blurb from their repo's README to learn more about it:
+
+  > We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see "[About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs)."
+  ...
+  If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work.
