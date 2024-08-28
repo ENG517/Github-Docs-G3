@@ -24,6 +24,8 @@ In this assignment, you will reinforce the following knowledge and skills:
 
 ## What To Do
 
+Before you begin, read the [user scenario](scenario.md) by which to consider how to revise the existing content.
+
 ### 1. Delegate a particular procedure to each team member
 
 1. Open the [Getting started with Github Desktop](content/desktop/overview/getting-started-with-github-desktop.md) document and navigate to the following section: "*Part 3: Contributing to projects with Github Desktop*."
@@ -54,8 +56,9 @@ In this assignment, you will reinforce the following knowledge and skills:
    * Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (Staging, Coaching, and Alerting).
       ![Tabulated task orientation criteria](assets/images/517/bellamyetal-task-orientation-criteria.png)
    * As you discuss, 
-     * Communicate the reasons behind your judgement of the writing and editing by drawing from the above criteria. 
-     * Use the SCA terms to indicate what types of moves you changed, and
+     * Communicate the reasons behind your judgement of the writing and editing by drawing from the above criteria;
+     * Use the [scenario](scenario.md) to guide your judgment;
+     * Use the SCA terms to indicate what types of moves you changed; and
      * Use the TO language and scoring to discuss what you thought needed revision, why, and why you think it is better now.
    * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
 
