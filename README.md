@@ -51,11 +51,16 @@ In this assignment, you will reinforce the following knowledge and skills:
      * **NOTE**: Some of these techniques are advanced, such as using *References*, *Projects*, and *Milestones*. Please ignore these for now.
 
 3. **REVIEW** and deliberate about the revisions:
-   * Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (WTGA).
-     * As you discuss, communicate the reasons behind your judgement of the writing and editing by drawing from the criteria.
-     * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
+   * Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (Staging, Coaching, and Alerting).
+      ![Tabulated task orientation criteria](assets/images/517/bellamyetal-task-orientation-criteria.png)
+   * As you discuss, 
+     * Communicate the reasons behind your judgement of the writing and editing by drawing from the above criteria. 
+     * Use the SCA terms to indicate what types of moves you changed, and
+     * Use the TO language and scoring to discuss what you thought needed revision, why, and why you think it is better now.
+   * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
 
-4. **DEPLOY** your agreed upon changes to the main branch: Once the editing is complete, deploy the changes by merging the branch with the main branch.
+4. **DEPLOY** the agreed upon changes: 
+   * The person who made the changes will be responsible for merging them into the main branch.
 
 ## Possible Discussion Questions to Consider Before Class
 
