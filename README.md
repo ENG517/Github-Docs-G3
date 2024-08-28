@@ -42,17 +42,20 @@ In this assignment, you will reinforce the following knowledge and skills:
 
 ### 2. Practice the DAC editorial workflow
 
-1. Practice the DAC editorial workflow. Be sure to create a new branch before you begin your editing work.
+1. **WRITE/REVISE** your assigned file:
+   * Practice the DAC editorial workflow. Be sure to create a new branch before you begin your editing work.
 
-2. When you think your edit is ready to share with your team, create a pull request.
-   * Follow Lakatos' guidelines about what information should be included (pp. 77-78): Issue title, Description, Mentions, Label, and Assignees.
-   * **NOTE**: Some of these techniques are advanced, such as using *References*, *Projects*, and *Milestones*. Please ignore these for now.
+2. **SUBMIT** a pull request:
+   * When you think your edit is ready to share with your team, create a pull request.
+     * Follow Lakatos' guidelines about what information should be included (pp. 77-78): Issue title, Description, Mentions, Label, and Assignees.
+     * **NOTE**: Some of these techniques are advanced, such as using *References*, *Projects*, and *Milestones*. Please ignore these for now.
 
-3. Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (WTGA).
-  * As you discuss, use Hart-Davidson's DES method, so you can be a helpful reviewer and ensure that you communicate the reasons behind your judgement of the writing and editing.
-  * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
+3. **REVIEW** and deliberate about the revisions:
+   * Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (WTGA).
+     * As you discuss, communicate the reasons behind your judgement of the writing and editing by drawing from the criteria.
+     * If needed, suggest at least one additional change before you all agree to merge the pull request into the main branch.
 
-4. Once the editing is complete, deploy the changes by merging the branch with the main branch.
+4. **DEPLOY** your agreed upon changes to the main branch: Once the editing is complete, deploy the changes by merging the branch with the main branch.
 
 ## Possible Discussion Questions to Consider Before Class
 
