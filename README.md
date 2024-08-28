@@ -45,7 +45,10 @@ Before you begin, read the [user scenario](scenario.md) by which to consider how
 ### 2. Practice the DAC editorial workflow
 
 1. **WRITE/REVISE** your assigned file:
-   * Practice the DAC editorial workflow. Be sure to create a new branch before you begin your editing work.
+   1. Create a new branch before you begin your editing work.
+   * Make a copy of the [pr-template.md](pr-template.md) file.
+   3. Rename it as `pr-yourlastname.md`. Use this file to draft your PR as you go, logging your changes.
+      - Note that GH will ignore changes to this new PR file, so you won't push the file with your branch. That's a good thing! You only want a local copy.
 
 2. **SUBMIT** a pull request:
    * When you think your edit is ready to share with your team, create a pull request.
@@ -53,7 +56,7 @@ Before you begin, read the [user scenario](scenario.md) by which to consider how
      * **NOTE**: Some of these techniques are advanced, such as using *References*, *Projects*, and *Milestones*. Please ignore these for now.
 
 3. **REVIEW** and deliberate about the revisions:
-   * Teams should discuss the edits by using the shared criteria from Bellamy et al. (task orientation) and Hart-Davidson (Staging, Coaching, and Alerting).
+   * Teams should discuss the edits by using the shared criteria from Task Orientation and WTGA (Staging, Coaching, and Alerting).
       ![Tabulated task orientation criteria](assets/images/517/bellamyetal-task-orientation-criteria.png)
    * As you discuss, 
      * Communicate the reasons behind your judgement of the writing and editing by drawing from the above criteria;

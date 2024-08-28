@@ -1,3 +1,4 @@
+/pr-*.md
 .search-cache
 .DS_Store
 .env
