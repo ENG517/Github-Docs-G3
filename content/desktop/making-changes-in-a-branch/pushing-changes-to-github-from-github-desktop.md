@@ -42,7 +42,7 @@ Repository administrators can also enable rulesets for a branch, which will prev
 
 
 
-2. Optionally, click **Preview Pull Request** to open a preview dialog where you can review your changes before creating a pull request. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)."
+2. Optionally, click **Preview Pull Request** in GitHub to open a preview dialog where you can review the changes you pushed before creating a pull request to merge those changes into the main branch of the repository. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop)."
 
    ![Screenshot of the "No local changes" view. A button, labeled "Preview Pull Request", is highlighted with an orange outline.](/assets/images/help/desktop/mac-preview-pull-request.png)
 
