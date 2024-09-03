@@ -46,7 +46,7 @@ Before you can clone a repository you must:
 
        {% note %}
 
-       **Note:** If the repository is configured to use LFS, you will be prompted to initialize {% data variables.large_files.product_name_short %}.
+       > **Note:** If the repository is configured to use LFS, you will be prompted to initialize {% data variables.large_files.product_name_short %}.
        {% endnote %}
 
 5. Check that the address in the "Local Path" bar matches the location you just selected. 
