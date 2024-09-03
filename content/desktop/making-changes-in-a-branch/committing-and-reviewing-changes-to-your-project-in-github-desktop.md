@@ -12,6 +12,20 @@ shortTitle: Commit & review changes
 ---
 ## About commits
 
+Commits are records of changes made to one or more files in your branch. This includes:
+- The specific changes
+- When the changes were made
+-Who created the changes
+
+When you make a commit, you must include a commit message that briefly describes the changes.
+
+{% note %}
+
+**Note:** Make sure to save your content before you click the commit button. 
+
+{% endnote %}
+
+
 {% data reusables.commits.about-commits %} You can also add a co-author on any commits you collaborate on.
 
 {% data reusables.desktop.update-email-address %} For more information, see "[AUTOTITLE](/desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop)."
@@ -21,31 +35,36 @@ shortTitle: Commit & review changes
 Repository administrators can enable rulesets for a branch to enforce specific conventions when committing. For example, a ruleset can require a commit to be signed, or for an issue number to be referenced at the start of a commit message. {% data variables.product.prodname_desktop %} will display a warning and prevent committing if a commit does not follow the rulesets.  For more information, see "[AUTOTITLE](/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)."
 
 {% endif %}
+ 
+**Prerequisites for commits**
+You must have made changes to a branch then commit to the change or save that change(s).
 
-## Choosing a branch and making changes
+
+## Choose a branch and making changes
+
 
 1. [Create a new branch](/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop), or select an existing branch by clicking {% octicon "git-branch" aria-hidden="true" %} **Current Branch** on the toolbar and selecting the branch from the list.
 
    ![Screenshot of the "Current Branch" dropdown view. Under "Recent Branches", a branch, named "my-feature", is highlighted with an orange outline.](/assets/images/help/desktop/select-branch-from-dropdown.png)
 {% data reusables.desktop.make-changes %}
 
-## Choosing how to display diffs
+## Choose how to display diffs
 
 You can change the way diffs are displayed in {% data variables.product.prodname_desktop %} to suit your reviewing needs.
 
 To change how you view diffs, in the top-right corner of the diff view, click {% octicon "gear" aria-label="The Gear icon" %}.
 * To change how the entire diff is displayed, under "Diff display", select  **Unified** or **Split**. The Unified view shows changes linearly, while the Split view shows old content on the left side and new content on the right side.
-* To hide whitespace changes so you can focus on more substantive changes, select **Hide Whitespace Changes**.
+* To hide whitespace changes to focus on more substantive changes, select **Hide Whitespace Changes**.
 
 ![Screenshot of the diff view of a "README" file. A gear icon is outlined in orange above an expanded dropdown displaying "Whitespace" and "Diff display" settings.](/assets/images/help/desktop/diff-selection.png)
 
-If you need to see more of the file than {% data variables.product.prodname_desktop %} shows by default, you can expand the diff.
+If you need to see more of the file than {% data variables.product.prodname_desktop %} shown by default, you can expand the diff.
 * To see the next few lines above or below the highlighted changes, click the arrow above or below the line numbers.
 * To see the entire file, right-click in the diff view and click **Expand Whole File**.
 
 ![Screenshot of the diff view of a "README" file. Over a green "addition" line, in a context menu, the cursor hovers over "Expand Whole File".](/assets/images/help/desktop/expand-diff-view.png)
 
-## Selecting changes to include in a commit
+## Select changes to include in a commit
 
 As you make changes to files in your text editor and save them locally, you will also see the changes in {% data variables.product.prodname_desktop %}.
 
@@ -60,21 +79,21 @@ In the "Changes" tab in the left sidebar:
   ![Screenshot of the "Changes" tab. Above the list of changed files, next to the text "3 changed files", a selected checkbox is outlined in orange.](/assets/images/help/desktop/commit-all.png)
 * {% data reusables.desktop.commit-some-desc %}
 
-### Creating a partial commit
+### Create a partial commit
 
-If one file contains multiple changes, but you only want some of those changes to be included in a commit, you can create a partial commit. The rest of your changes will remain intact, so that you can make additional modifications and commits. This allows you to make separate, meaningful commits, such as keeping line break changes in a commit separate from code or prose changes.
+If one file contains multiple changes, but you only want some of those changes to be included in a commit, you can create a partial commit. The rest of your changes will remain intact, so you can make additional modifications and commits. This allows you to make separate, meaningful commits, such as keeping line break changes in a commit separate from code or prose changes.
 
 To exclude changed lines from your commit, click one or more changed lines so the blue disappears. The lines that are still highlighted in blue will be included in the commit.
 
 ![Screenshot of the diff view of a text file. Next to the text "I don't want to include this line", the background color behind the line numbers is green, not blue.](/assets/images/help/desktop/partial-commit.png)
 
-## Discarding changes
+## Discard changes
 
 If you have uncommitted changes that you don't want to keep, you can discard the changes. This will remove the changes from the files on your computer. You can discard all uncommitted changes in one or more files, or you can discard specific lines you added.
 
 Discarded changes are saved in a dated file in the Trash. You can recover discarded changes until the Trash is emptied.
 
-### Discarding changes in one or more files
+### Discard changes in one or more files
 
 {% data reusables.desktop.select-discard-files %}
 {% data reusables.desktop.click-discard-files %}
@@ -82,7 +101,7 @@ Discarded changes are saved in a dated file in the Trash. You can recover discar
    ![Screenshot of the "Changes" tab. Two selected files are highlighted in blue. In a context menu, the cursor hovers over "Discard 2 Selected Changes".](/assets/images/help/desktop/discard-changes-mac.png)
 {% data reusables.desktop.confirm-discard-files %}
 
-### Discarding changes in one or more lines
+### Discard changes in one or more lines
 
 You can discard one or more changed lines that are uncommitted.
 
@@ -113,7 +132,7 @@ Once you're satisfied with the changes you've chosen to include in your commit, 
 {% data reusables.desktop.commit-message %}
 
    ![Screenshot of the "Changes" tab in the sidebar. To the right of a profile picture, a text field containing a commit message is outlined in orange.](/assets/images/help/desktop/commit-message.png)
-1. Optionally, to attribute a commit to another author, click the add co-authors icon and type the username(s) you want to include.
+1. To attribute a commit to another author, click the add co-authors icon and type the username(s) you want to include.
 
    ![Screenshot of the "Changes" tab. In the corner of the "Description" field, a "person with a plus sign" icon for adding a co-author is outlined in orange.](/assets/images/help/desktop/add-co-author-commit.png)
 {% data reusables.desktop.commit-button %}
@@ -130,7 +149,7 @@ Once you're satisfied with the changes you've chosen to include in your commit, 
 
    ![Screenshot of the "No local changes" view. A button, labeled "Preview Pull Request", is highlighted with an orange outline.](/assets/images/help/desktop/mac-preview-pull-request.png)
 
-## Managing your commit history
+## Manage your commit history
 
 If you need to undo a commit or revise your commit history (to make it easier for a reviewer to follow your changes), {% data variables.product.prodname_desktop %} provides a number of options for managing your commit history. For more information, see "[AUTOTITLE](/desktop/managing-commits/options-for-managing-commits-in-github-desktop)."
 
