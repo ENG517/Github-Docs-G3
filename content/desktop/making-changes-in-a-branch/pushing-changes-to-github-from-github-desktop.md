@@ -14,14 +14,14 @@ versions:
 # Pushing changes to GitHub from GitHub Desktop
 As you make changes to files on your local project through GitHub Desktop, you can push those changes to GitHub so that others can view and access your edits to a repository.
 
-> To push changes to a repository, you must have write permissions. These permissions are managed by your repository's admin.
+> **Note:** To push changes to a repository, you must have write permissions. These permissions are managed by your repository's admin.
 
 ## About pushing changes to {% data variables.product.prodname_dotcom %}
 When you push changes, you send the committed changes in your local repository to the remote repository on {% data variables.product.prodname_dotcom %}. If you change your project locally and want other people to have access to the changes, you must push the changes to {% data variables.product.prodname_dotcom %}.
 
 ## Before pushing changes to {% data variables.product.prodname_dotcom %}
 Before pushing changes, update your local branch to include any commits that have been added to the remote repository. This ensures that you have the latest version of the repository before you merge your work.
-> If someone has made commits on the remote that are not on your local branch, {% data variables.product.prodname_desktop %} will prompt you to fetch the new commits before pushing your changes to avoid merge conflicts.
+> **Note:** If someone has made commits on the remote that are not on your local branch, {% data variables.product.prodname_desktop %} will prompt you to fetch the new commits before pushing your changes to avoid merge conflicts.
 
 For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop)."
 
@@ -48,21 +48,10 @@ Repository administrators can also enable rulesets for a branch, which will prev
 
 
 
-{% data reusables.desktop.push-origin %}
-> If there are commits on the remote branch that you don't have on your local branch, {% data variables.product.prodname_desktop %} prompts you to fetch new commits from the remote. In the "New Commits on Remote" window, click **Fetch**.
-
-
-
-{% note %}
-
-**Note:** {% data variables.product.prodname_desktop %} will reject a push if it exceeds certain limits.
-
-* A push contains a large file over {% data variables.large_files.max_github_size %} in size.
-* A push is over {% data variables.large_files.max_file_size %} in total size.
-
-If you configure {% data variables.large_files.product_name_long %} to track your large files, you can push large files that would normally be rejected. For more information, see "[AUTOTITLE](/desktop/configuring-and-customizing-github-desktop/about-git-large-file-storage-and-github-desktop)."
-
-{% endnote %}
+>{**Note:** {% data variables.product.prodname_desktop %} will reject a push if it exceeds certain limits.
+>* A push contains a large file over {% data variables.large_files.max_github_size %} in size.
+>* A push is over {% data variables.large_files.max_file_size %} in total size.
+>If you configure {% data variables.large_files.product_name_long %} to track your large files, you can push large files that would normally be rejected. For more information, see "[AUTOTITLE](/desktop/configuring-and-customizing-github-desktop/about-git-large-file-storage-and-github-desktop)."
 
 
 
