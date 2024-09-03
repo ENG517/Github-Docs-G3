@@ -19,6 +19,12 @@ Commits are records of changes made to one or more files in your branch. This in
 
 When you make a commit, you must include a commit message that briefly describes the changes.
 
+{% note %}
+
+**Note:** Make sure to save your content before you click the commit button. 
+
+{% endnote %}
+
 
 {% data reusables.commits.about-commits %} You can also add a co-author on any commits you collaborate on.
 
