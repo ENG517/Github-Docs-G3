@@ -9,6 +9,9 @@ versions:
   feature: desktop
 shortTitle: Clone a GitHub repo
 ---
+## Introduction
+Cloning a repository allows you to save a copy of a repository hosted on GitHub to your computer. However, this copy is still connected to the original remote repository. Using GitHub Desktop and your text editor of choice, you will manage and edit the files in this repository on your local computer, and then post your updates for review.
+
 ## Prerequisites
 Before you can clone a repository you must:
 1. Have created and authenticated a GitHub account and have your credentials handy.
