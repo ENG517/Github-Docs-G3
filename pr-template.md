@@ -4,6 +4,8 @@ Use the below headings to structure the content of your Pull Request.
 
 ## Enter PR Title Here
 
+## Introduction
+
 ## Staging
 
 Describe what content, if any, you revised and why via the TO criteria: 
